@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+#bar1,
+#bar2 {
+  background-color: black;
+  height: 30px;
+  width: 200px;
+  padding: 5px 0px 5px 75px;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 15px;
+}
+#bar1 {
+  position: absolute;
+  top: 0px;
+}
+#bar2 {
+  position: absolute;
+  bottom: 0px;
+}
+#ball {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 100%;
+  position: absolute;
+}
